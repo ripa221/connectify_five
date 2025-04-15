@@ -1,0 +1,62 @@
+name: connectify
+description: "A new Flutter project."
+publish_to: 'none' # Prevent accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+# ──────────────────────────────
+# Dependencies
+# ──────────────────────────────
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cupertino icons for iOS-style components
+  cupertino_icons: ^1.0.8
+
+  # Firebase core packages
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.14.0
+  firebase_storage: ^11.7.7
+
+  # Firebase Messaging for push notifications
+  firebase_messaging: ^14.7.4
+
+  # State management using Provider
+  provider: ^6.1.1
+
+  # Image picker for gallery or camera input
+  image_picker: ^1.1.2
+
+  # HTTP requests support
+  http: ^0.13.6
+
+# ──────────────────────────────
+# Development and Linting
+# ──────────────────────────────
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended linting rules
+  flutter_lints: ^5.0.0
+
+# ──────────────────────────────
+# Flutter-specific Configuration
+# ──────────────────────────────
+flutter:
+  uses-material-design: true
+
+  # Application assets (images, backgrounds, etc.)
+  assets:
+    - assets/images/
+
+  # Fonts can be added here when needed
+  # fonts:
+  #   - family: YourFontFamily
+  #     fonts:
+  #       - asset: fonts/YourFont.ttf
